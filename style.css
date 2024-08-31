@@ -171,7 +171,7 @@ section.header {
     background-color: var(--dark-gray);
     position: sticky;
     top: 0;
-    z-index: 99999;
+    z-index: 999;
     width: 100%;
     display: flex;
     align-items: center;
@@ -229,10 +229,10 @@ section.header .logo-wrapper {
     display: block;
     background-color: var(--med-gray);
     position: absolute;
-    padding: 20px 0px;
-    top: 70px;
+    padding: 30px 0px 10px;
+    top: 60px;
     display: none;
-    z-index: 9999;
+    z-index: 998;
 }
 
 .navigation_bar ul li ul:first-child li a {
@@ -1037,7 +1037,12 @@ img {
 
 .sec-title-style1 .title {
     position: relative;
+    width: 100% !important;
     display: block;
+    text-align: center;
+}
+
+.sec-title-style1 .title span{
     color: #131313;
     font-size: 36px;
     line-height: 46px;
@@ -1362,7 +1367,7 @@ img {
     position: relative;
     display: block;
     background: #F6F6F6;
-    padding: 100px 60px 80px;
+    padding: 100px 20px 80px;
     -webkit-box-shadow: 0px 3px 8px 2px #ededed;
     box-shadow: 0px 3px 8px 2px #ededed;
     z-index: 3;
@@ -1373,14 +1378,14 @@ img {
     position: relative;
     display: block;
     padding-bottom: 51px;
-    width: 50%;
+    width: 100%;
 }
 
 .contact-form .text-box {
     position: relative;
     display: block;
     margin-top: 19px;
-    width: 50%;
+    width: 100%;
 }
 
 .contact-form .text p {
@@ -1511,7 +1516,7 @@ section.iframe{
 }
 .main-iframe iframe{
     width: 100%;
-    height: 350px;
+    height: 400px;
 }
 /* Contact Page Styling End */
 
@@ -1797,3 +1802,476 @@ form .msg_btn{
 /* B2B Send Message Section End*/
 
 /* B2B Page Styling End*/
+
+
+/* Whole Sale Page Styling */
+#wholesalePg {
+    background-color: #fff;
+}
+
+/* WholeSale Banner Styling */
+.wholesale-title {
+    background-image: url('assets/images/wholesale-banner-img.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+
+.green-overlay{
+    z-index: 1;
+    aspect-ratio: auto;
+    background-color: var(--cit-green);
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+}
+.wholesale-title .container{
+    z-index: 99;
+    position: relative;
+}
+.wholesale-title-box {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+.wholesale-heading {
+    padding: 10px 0px;
+}
+
+.wholesale-heading h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.wholesale-des{
+    padding: 10px 0px;
+}
+.wholesale-des span {
+    color: #ffffff;
+    font-size: 23px;
+}
+
+/* WholeSale Banner Styling */
+
+section.wholesale-content{
+    width: 100%;
+    padding: 1px;
+}
+.main-wholesale-content{
+    width: 80%;
+    margin: 50px auto;
+}
+.better_heading-wrapper{
+    width: 100%;
+}
+.better_heading{
+    text-align: center;
+    padding: 5px;
+}
+.better_heading h1{
+    margin-bottom: 0;
+    color: var(--cit-green);
+    font-weight: 700;
+}
+.better_para{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.action-house-heading{
+    text-align: center;
+}
+
+.action-house-heading h2{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* Wholesale box Start */
+
+.wholesale_box-wrapper {
+    width: 100%;
+    margin: 30px 0px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.wholesale_box {
+    width: 48%;
+    background-color: #F6F6F6;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.wholesale_box .img_wrapp {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wholesale_box .wholesale-box-content {
+    padding: 10px;
+}
+
+.wholesale-box-content .small_heading{
+    text-align: center;
+}
+
+.wholesale-box-content .small_heading h5{
+    font-size: 25px;
+}
+
+.wholesale-box-content .small_para {
+    width: 90%;
+    margin: auto;
+}
+
+.wholesale-box-content .small_para ul li{
+    list-style-type: disc;
+    font-size: 16px;
+}
+
+/* Wholesale box End */
+
+/* Wholesale Main Heading Start */
+
+.main-heading{
+    width: max-content;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.main-heading h1{
+    font-size: 45px;
+    font-weight: 400;
+    color: var(--dark-gray);
+}
+.main-heading h1 span{
+    color: var(--cit-green);
+    font-weight: bolder;
+}
+.main-heading::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    bottom: 50%;
+    height: 2px;
+    width: 30%;
+    background-color: #7e7e7e;
+    transform: translateY(-50%);
+    left: -35%;
+    border-radius: 20px;
+}
+.main-heading::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    bottom: 50%;
+    height: 2px;
+    width: 30%;
+    background-color: #7e7e7e;
+    transform: translateY(-50%);
+    right: -35%;
+    border-radius: 20px;
+}
+
+/* Wholesale Main Heading Start */
+
+/* Advantages Heading Start */
+
+.enjoy-advantage-heading{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.enjoy-advantage-heading h2{
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: var(--dark-gray);
+}
+
+/* Advantages Heading Start */
+
+/* Whole Sale Box Wrapper Start */
+.wholeSaleBox_wrap{
+    height: 270px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 70px 0px;
+    gap: 25px;
+    padding: 10px;
+}
+.wholeSaleimg-wrap{
+    height: 100%;
+    width: 40%;
+    background-image: url('assets/images/global-audience-img.jpg');
+    background-size: 100% 100%;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+.wholeSaleimg-wrap.Quality-Presentation{
+    background-image: url('assets/images/quality-presentation-img.jpg');
+}
+.wholeSaleimg-wrap.sell-speed{
+    background-image: url('assets/images/sell-speed-img.png');
+    background-size: cover;
+}
+.wholeSaleimg-wrap.tracking-report{
+    background-image: url('assets/images/tracking-report-img.jpg');
+}
+.wholeSaleText-wrap{
+    /* width: 62%; */
+    height: 100%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.large-global-heading h1{
+    margin-bottom: 0;
+    font-weight: 700;
+    color: var(--dark-gray);
+}
+.global-bullet-points ul li {
+    list-style-type: disc;
+    margin: 5px 0px 5px 20px;
+}
+.global-box-btn{
+    margin-top: 10px;
+}
+.global-box-btn button{
+    width: 55%;
+    padding: 12px 0px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #000;
+    transition: 350ms ease-in-out;
+}
+.global-box-btn button:hover{
+    background-color: var(--cit-green);
+    color: #ffffff;
+}
+
+/* Whole Sale Box Wrapper End */
+
+
+/* Working Step Section Start */
+section.working-section{
+    width: 100%;
+    background-color: var(--light-gray);
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+
+.working-title-box {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.working-heading {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.working-heading h2 {
+    color: var(--dark-gray);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.steps_box_wrapp{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.steps_box{
+    height: 300px;
+    width: 20%;
+}
+.steps_box .box-img{
+    width: 100%;
+    height: 160px;
+    background-color: rgba(123, 171, 77, .2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-img img{
+    object-fit: contain;
+}
+.box-text{
+    text-align: center;
+    padding: 10px 0px;
+}
+.box-text h5{
+    font-size: 30px;
+    color: var(--cit-green);
+    font-weight: 700;
+}
+.steps_btn{
+    text-align: center;
+    padding: 5px 0px;
+}
+.steps_btn button{
+    padding: 10px 0px;
+    width: 60%;
+    border: 2px solid var(--cit-green);
+    outline: none;
+    background-color: transparent;
+    color: var(--cit-green);
+    font-size: 17px;
+    transition: 350ms ease-in-out;
+    border-radius: 5px;
+}
+.steps_btn button:hover{
+    background-color: var(--cit-green);
+    color: #ffffff;
+}
+/* Working Step Section End */
+
+/* Consign Section Start */
+section.consign{
+    width: 100%;
+    background-image: url('assets/images/wholesale-consign-banner-img.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: 50%;
+    position: relative;
+    padding: 70px 0px;
+}
+.black-overlaying{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 99;
+}
+section.consign .container{
+    position: relative;
+    z-index: 100;
+}
+.main-consign-box{
+    width: 80%;
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.consign-heading h1{
+    color: #ffffff;
+    font-weight: 700;
+}
+.consign-points ul li{
+    list-style-type: disc;
+    color: #fff;
+    margin-left: 40px;
+    font-size: 24px
+}
+.consign-small-para{
+    margin-top: 10px;
+}
+.consign-small-para p{
+    color: #ffffff;
+    font-size: 17px;
+}
+/* Consign Section End */
+
+
+/* Newsletter Section Start */
+section.wholeSale_newsletter{
+    width: 100%;
+    background-color: #121929;
+    padding: 50px 0px;
+    border: 1px solid #ffff;
+}
+.main-wholesale_newsletter{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.keep_update_heading{
+    padding: 5px 0px;
+    text-align: center;
+}
+.keep_update_heading h2{
+    margin-bottom: 0;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.keep_update_para{
+    width: 60%;
+    margin-top: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+.keep_update_para p{
+    font-size: 19px;
+    color: #A2AAB6;
+}
+.notify_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.notify_wrapper input{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    outline: none;
+    color: #ffffff;
+    background-color: #4c5364b4;
+    backdrop-filter: blur(10px);
+}
+.notify_wrapper button{
+    padding: 6px 20px;
+    border-radius: 5px ;
+    background-color: #fff;
+    color: #121929;
+    font-size: 19px;
+    border: none;
+    outline: none;
+}
+.notify_wrapper input::placeholder{
+    color: #ffffff;
+}
+/* Newsletter Section End */
+
+
+/* Whole Sale Page Styling */

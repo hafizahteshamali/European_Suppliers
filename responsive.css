@@ -61,6 +61,42 @@
     section.second-banner.third .banner-content-box {
         width: 81%;
     }
+
+    /* Whole Sale Page Responsiveness Start */
+    .wholesale-title-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-wholesale-content {
+        width: 100%;
+    }
+
+    .better_para {
+        width: 100%;
+    }
+
+    .main-heading h1 {
+        font-size: 30px;
+    }
+
+    .enjoy-advantage-heading {
+        margin-top: 10px;
+    }
+
+    .enjoy-advantage-heading h2 {
+        font-size: 30px;
+    }
+
+    .main-consign-box {
+        width: 100%;
+    }
+
+    .main-wholesale_newsletter {
+        width: 100%;
+    }
+
+    /* Whole Sale Page Responsiveness End */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -284,6 +320,82 @@
     }
 
     /* B2b Page Responsive End */
+
+    /* Whole Sale Page Responsiveness Start */
+    .wholesale-title-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-wholesale-content {
+        width: 100%;
+    }
+
+    .better_para {
+        width: 100%;
+    }
+
+    .main-heading h1 {
+        font-size: 30px;
+    }
+
+    .wholeSaleText-wrap {
+        width: 75%;
+    }
+
+    .wholesale_box-wrapper {
+        flex-direction: column;
+    }
+
+    .wholesale_box {
+        width: 50%;
+    }
+
+    .global-bullet-points ul li {
+        margin: unset;
+        font-size: 14px;
+    }
+
+    .large-global-heading h1 {
+        font-size: 30px;
+    }
+
+    .enjoy-advantage-heading {
+        margin-top: 10px;
+    }
+
+    .enjoy-advantage-heading h2 {
+        font-size: 30px;
+    }
+
+    .steps_box_wrapp {
+        flex-wrap: wrap;
+    }
+
+    .main-consign-box {
+        width: 100%;
+    }
+
+    .consign-heading {
+        text-align: center;
+    }
+
+    .consign-points {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consign-small-para {
+        text-align: center;
+    }
+
+    .main-wholesale_newsletter {
+        width: 100%;
+    }
+
+    /* Whole Sale Page Responsiveness End */
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -771,6 +883,166 @@
     }
 
     /* B2b Page Responsive End */
+
+
+    /* Whole Sale Page Responsiveness Start */
+    .wholesale-title-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-wholesale-content {
+        width: 100%;
+    }
+
+    .better_para {
+        width: 100%;
+    }
+
+    .main-heading h1 {
+        font-size: 30px;
+    }
+
+    .wholeSaleBox_wrap {
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .wholeSaleimg-wrap {
+        order: -1;
+        width: 55%;
+        height: 500px;
+    }
+
+    .wholeSaleText-wrap {
+        width: 100%;
+        padding: 10px;
+        order: 1;
+    }
+
+    .large-global-heading {
+        text-align: center;
+    }
+
+    .wholesale_box-wrapper {
+        flex-direction: column;
+    }
+
+    .global-bullet-points {
+        width: max-content;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .global-box-btn {
+        text-align: center;
+    }
+
+    .wholesale_box {
+        width: 50%;
+    }
+
+    .global-bullet-points ul li {
+        margin: unset;
+        font-size: 14px;
+    }
+
+    .large-global-heading h1 {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        width: 100%;
+    }
+
+    .main-heading::before {
+        background: none;
+        left: 0;
+        border-radius: 20px;
+    }
+
+    .main-heading::after {
+        background: none;
+        left: 0;
+        border-radius: 20px;
+    }
+
+    .enjoy-advantage-heading {
+        margin-top: 10px;
+    }
+
+    .enjoy-advantage-heading h2 {
+        font-size: 20px;
+    }
+
+    .steps_box_wrapp {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .steps_box {
+        width: 70%;
+
+    }
+
+    .main-consign-box {
+        width: 100%;
+    }
+
+    .consign-heading {
+        text-align: center;
+    }
+
+    .consign-heading h1 {
+        font-size: 30px;
+    }
+
+    .consign-points ul li {
+        font-size: 18px;
+    }
+
+    .consign-small-para p {
+        font-size: 14px;
+    }
+
+    .consign-points {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consign-small-para {
+        text-align: center;
+    }
+
+    .main-wholesale_newsletter {
+        width: 100%;
+    }
+
+    .keep_update_heading h2 {
+        font-size: 30px;
+    }
+
+    .notify_wrapper {
+        flex-direction: column;
+    }
+
+    .notify_wrapper input {
+        width: 80%;
+        text-align: center;
+    }
+
+    .notify_wrapper button {
+        width: 45%;
+    }
+
+    .keep_update_para {
+        width: 100%;
+    }
+
+    /* Whole Sale Page Responsiveness End */
 }
 
 
@@ -1327,6 +1599,179 @@
     }
 
     /* B2b Page Responsive End */
+
+    /* Whole Sale Page Responsiveness Start */
+    .wholesale-title-box {
+        width: 100% !important;
+        text-align: center;
+        margin: unset;
+        padding: unset;
+    }
+
+    .main-wholesale-content {
+        width: 100%;
+    }
+
+    .better_para {
+        width: 100%;
+    }
+
+    .main-heading h1 {
+        font-size: 30px;
+    }
+
+    .wholeSaleBox_wrap {
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .wholeSaleimg-wrap {
+        order: -1;
+        width: 70%;
+        height: 500px;
+    }
+
+    .wholeSaleText-wrap {
+        width: 100%;
+        padding: 10px;
+        order: 1;
+    }
+
+    .large-global-heading {
+        text-align: center;
+    }
+
+    .wholesale_box-wrapper {
+        flex-direction: column;
+    }
+
+    .global-bullet-points {
+        width: max-content;
+        margin: auto;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .global-box-btn {
+        text-align: center;
+    }
+
+    .wholesale_box {
+        width: 70%;
+    }
+
+    .wholeSaleText-wrap {
+        width: 100%;
+    }
+
+    .global-bullet-points ul {
+        width: 85%;
+        margin: auto;
+    }
+
+    .global-bullet-points ul li {
+        margin: unset;
+        font-size: 14px;
+        list-style-type: none;
+    }
+
+    .large-global-heading h1 {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        width: 100%;
+    }
+
+    .main-heading::before {
+        background: none;
+        left: 0;
+        border-radius: 20px;
+    }
+
+    .main-heading::after {
+        background: none;
+        left: 0;
+        border-radius: 20px;
+    }
+
+    .enjoy-advantage-heading {
+        margin-top: 10px;
+    }
+
+    .enjoy-advantage-heading h2 {
+        font-size: 20px;
+    }
+
+    .steps_box_wrapp {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .steps_box {
+        width: 70%;
+
+    }
+
+    .main-consign-box {
+        width: 100%;
+    }
+
+    .consign-heading {
+        text-align: center;
+    }
+
+    .consign-heading h1 {
+        font-size: 30px;
+    }
+
+    .consign-points ul li {
+        font-size: 18px;
+    }
+
+    .consign-small-para p {
+        font-size: 14px;
+    }
+
+    .consign-points {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consign-small-para {
+        text-align: center;
+    }
+
+    .main-wholesale_newsletter {
+        width: 100%;
+    }
+
+    .keep_update_heading h2 {
+        font-size: 30px;
+    }
+
+    .notify_wrapper {
+        flex-direction: column;
+    }
+
+    .notify_wrapper input {
+        width: 80%;
+        text-align: center;
+    }
+
+    .notify_wrapper button {
+        width: 45%;
+    }
+
+    .keep_update_para {
+        width: 100%;
+    }
+
+    /* Whole Sale Page Responsiveness End */
 }
 
 
@@ -1646,7 +2091,7 @@
         text-align: center;
     }
 
-    .link-wrapper ul li a img{
+    .link-wrapper ul li a img {
         height: 20px;
         width: 20px;
     }
@@ -1678,14 +2123,15 @@
         order: 1;
     }
 
-    .footer-nav a{
+    .footer-nav a {
         font-size: 14px;
     }
-    .footer-nav a i{
+
+    .footer-nav a i {
         font-size: 10px;
     }
 
-    .copyright-content ul li p{
+    .copyright-content ul li p {
         font-size: 13px;
     }
 
@@ -1783,6 +2229,10 @@
 
     /* About Us Page */
 
+    .sec-title-style1 .title span {
+        font-size: 25px;
+    }
+
     /* B2b Page Responsive Start */
     .b2b-title {
         padding: 0px !important;
@@ -1872,7 +2322,7 @@
         margin: 20px auto;
     }
 
-    .b2b-box-content .small_heading h5{
+    .b2b-box-content .small_heading h5 {
         font-size: 20px;
     }
 
@@ -1911,4 +2361,184 @@
     }
 
     /* B2b Page Responsive End */
+
+
+    /* Whole Sale Page Responsiveness Start */
+    .wholesale-heading {
+        width: 100%;
+    }
+
+    .wholesale-heading h1 {
+        font-size: 25px;
+    }
+
+    .wholesale-title-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-wholesale-content {
+        width: 100%;
+    }
+
+    .better_para {
+        width: 100%;
+    }
+
+    .main-heading h1 {
+        font-size: 30px;
+    }
+
+    .wholeSaleBox_wrap {
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .wholeSaleimg-wrap {
+        order: -1;
+        width: 70%;
+        height: 500px;
+    }
+
+    .wholeSaleText-wrap {
+        width: 100%;
+        padding: 10px;
+        order: 1;
+    }
+
+    .large-global-heading {
+        text-align: center;
+    }
+
+    .wholesale_box-wrapper {
+        flex-direction: column;
+    }
+
+    .global-bullet-points {
+        width: max-content;
+        margin: auto;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .global-box-btn {
+        text-align: center;
+    }
+
+    .wholesale_box {
+        width: 100%;
+    }
+
+    .wholeSaleText-wrap {
+        width: 100%;
+    }
+
+    .global-bullet-points ul {
+        width: 85%;
+        margin: auto;
+    }
+
+    .global-bullet-points ul li {
+        margin: unset;
+        font-size: 12px;
+        list-style-type: none;
+    }
+
+    .large-global-heading h1 {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        width: 100%;
+    }
+
+    .main-heading::before {
+        background: none;
+        left: 0;
+        border-radius: 20px;
+    }
+
+    .main-heading::after {
+        background: none;
+        left: 0;
+        border-radius: 20px;
+    }
+
+    .enjoy-advantage-heading {
+        margin-top: 10px;
+    }
+
+    .enjoy-advantage-heading h2 {
+        font-size: 20px;
+    }
+
+    .steps_box_wrapp {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .steps_box {
+        width: 70%;
+
+    }
+
+    .main-consign-box {
+        width: 100%;
+    }
+
+    .consign-heading {
+        text-align: center;
+    }
+
+    .consign-heading h1 {
+        font-size: 30px;
+    }
+
+    .consign-points ul li {
+        font-size: 18px;
+    }
+
+    .consign-small-para p {
+        font-size: 14px;
+    }
+
+    .consign-points {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consign-small-para {
+        text-align: center;
+    }
+
+    .main-wholesale_newsletter {
+        width: 100%;
+    }
+
+    .keep_update_heading h2 {
+        font-size: 30px;
+    }
+
+    .notify_wrapper {
+        flex-direction: column;
+    }
+
+    .notify_wrapper input {
+        width: 80%;
+        text-align: center;
+    }
+
+    .notify_wrapper button {
+        width: 45%;
+    }
+
+    .keep_update_para {
+        width: 100%;
+    }
+
+    /* Whole Sale Page Responsiveness End */
 }
