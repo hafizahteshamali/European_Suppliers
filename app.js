@@ -1,3 +1,22 @@
+let headerTop = document.getElementById('headerTop');
+
+window.addEventListener('scroll', ()=>{
+    if(window.scrollY > 0){
+        headerTop.style.background = "#242424";
+    }
+    else{
+        headerTop.style.background = "#242424";
+    }
+})
+
+
+
+
+
+
+
+
+
 let menuIcon = document.getElementById('menu-icon');
 let closeIcon = document.getElementById('close-icon');
 let responsiveBar = document.querySelector('.responsive-bar');
