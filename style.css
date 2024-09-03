@@ -34,16 +34,18 @@ a {
 /* Make the responsive bar fixed at the top */
 .responsive-bar {
     height: 100vh;
-    width: 40% !important;
+    width: 50% !important;
     min-width: 300px !important;
     background-color: var(--dark-gray);
     padding: 20px 10px 0px;
     position: fixed;
     top: 0;
     right: 0;
+    bottom: 0;
     z-index: 10000;
     transform: translateX(100%);
     transition: 300ms ease-in-out;
+    overflow-y: scroll;
 }
 
 .responsive-bar.showModal {
@@ -57,20 +59,92 @@ a {
     justify-content: center;
     margin: 55px auto 0px;
 }
-.responsive-navbar ul{
-    padding-top: 20px;
+.responsive-navbar ul li{
+    width: 70%;
+    margin: 5px auto;
+    /* border: 1px solid #fff; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.responsive-navbar ul li i{
+    color: #ffff;
+    transition: 350ms ease-in-out;
+}
+.rotate{
+    transform: rotate(-180deg);
+    transition: 350ms ease-in-out;
+}
+.Aboutrotate{
+    transform: rotate(-180deg);
+    transition: 350ms ease-in-out;
+}
+.b2bRotate{
+    transform: rotate(-180deg);
+    transition: 350ms ease-in-out;
+}
+.responsive-navbar ul .wholesaleLi{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+}
+.responsive-navbar ul li ul{
+    width: 126% !important;
+    padding: 0 !important;
+}
+.responsive-navbar ul li ul .b2bli ul li{
+    color: #000 !important;
+    width: 100%;
+    border: 1px solid #fff;
+}
+.responsive-bar ul .wholesaleLi ul{
+    display: none;
+}
+.responsive-bar ul .wholesaleLi ul.wholesaleLiShow{
+    display: block;
+}
+.responsive-bar ul .aboutLi ul{
+    display: none;
+}
+.responsive-bar ul .aboutLi ul.aboutDropDownShow{
+    display: block;
+}
+.responsive-bar ul .wholesaleLi ul.wholesaleLiShow li{
+    border: none;
+}
+.responsive-bar ul li ul li.b2bli ul{
+    display: none;
+}
+.responsive-bar ul li ul li.b2bli ul.b2bDropDownShow{
+    display: block;
+}
+.wholeSaleDiv, .HomeDiv, .abooutDiv, .wholeSaleDiv, .blogDiv, .b2bDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 265px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+.navicon.active{
+    background-color: var(--cit-green);
 }
 .responsive-navbar ul li a {
-    width: 100%;
-    margin: 10px auto 0;
     padding: 10px;
     display: block;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase;
     font-weight: 600;
     color: #ffffff;
     text-decoration: none;
+}
+.responsive-navbar .b2b-btn{
+    width: 78%;
 }
 .responsive-navbar .b2b-btn img{
     height: 30px;
@@ -79,23 +153,25 @@ a {
 }
 .responsive-navbar ul li{
     background: none;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
 }
-.responsive-navbar ul li a:hover{
-    background-color: var(--cit-green);
-}
-
 .responsive-navbar ul li:hover>a{
     color: #ffffff;
 }
-.responsive-bar ul li ul{
-    margin-top: -30px;
+.responsive-navbar ul .wholesaleList i{
+    color: #fff;
 }
-.responsive-bar ul li ul{
-    display: none;
+.responsive-navbar ul li ul{
+    bottom: 0;
+    width: 90%;
 }
 
-.responsive-bar ul li:hover ul{
-    display: block;
+.responsive-navbar ul .wholesaleList ul li{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
 }
 
 /* Social links section styling */
@@ -172,11 +248,10 @@ section.header {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 9999 !important;
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 10px 0px;
     border-bottom: 1px solid #ffffff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -189,7 +264,7 @@ section.header .main-header-class {
 
 section.header .logo-wrapper {
     height: 70px;
-    padding: unset;
+    padding: 5px;
     margin-left: 10px;
 }
 
@@ -202,14 +277,18 @@ section.header .logo-wrapper {
 .navigation_bar {
     width: 60%;
     height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
 }
 
 .navigation_bar ul {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
     margin-bottom: 0;
     padding: 0;
+    gap: 40px;
 }
 
 .navigation_bar ul li:hover>a {
@@ -217,7 +296,7 @@ section.header .logo-wrapper {
 }
 
 .navigation_bar ul li a {
-    font-size: 15px !important;
+    font-size: 14px !important;
     text-transform: uppercase;
     font-weight: 600;
     color: var(--white);
@@ -227,15 +306,25 @@ section.header .logo-wrapper {
 }
 
 .navigation_bar ul li ul {
+    width: 15%;
     display: block;
     background-color: var(--med-gray);
     position: absolute;
     padding: 30px 0px 10px;
-    top: 60px;
+    top: 70px;
     display: none;
     z-index: 998;
 }
-
+.navigation_bar ul li ul .b2blist{
+    position: relative;
+}
+.navigation_bar ul li ul .b2blist ul{
+    background-color: var(--med-gray);
+    position: absolute;
+    right: -110%;
+    top: 0;
+    width: 110%;
+}
 .navigation_bar ul li ul:first-child li a {
     padding: 0;
 }
@@ -284,6 +373,7 @@ section.header .logo-wrapper {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    margin: 10px auto;
 }
 
 /* Header Section End */
