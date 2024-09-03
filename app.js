@@ -104,3 +104,15 @@ const changingBackground = () => {
 }
 
 changingBackground();
+
+
+let topBtn = document.getElementById('topBtn');
+
+const scroolingToTop = ()=>{
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
+
+topBtn.addEventListener('click', scroolingToTop);

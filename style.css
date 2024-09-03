@@ -15,7 +15,9 @@ li {
 a {
     text-decoration: none;
 }
-
+html{
+    box-sizing: border-box;
+}
 :root {
     --color: var(--white);
     --cit-green: #7bab4d;
@@ -60,14 +62,13 @@ a {
     margin: 55px auto 0px;
 }
 .responsive-navbar ul li{
-    width: 70%;
+    width: 95%;
     margin: 5px auto;
     /* border: 1px solid #fff; */
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .responsive-navbar ul li i{
     color: #ffff;
@@ -91,7 +92,7 @@ a {
     flex-direction: column;
 }
 .responsive-navbar ul li ul{
-    width: 126% !important;
+    width: 105% !important;
     padding: 0 !important;
 }
 .responsive-navbar ul li ul .b2bli ul li{
@@ -120,7 +121,7 @@ a {
 .responsive-bar ul li ul li.b2bli ul.b2bDropDownShow{
     display: block;
 }
-.wholeSaleDiv, .HomeDiv, .abooutDiv, .wholeSaleDiv, .blogDiv, .b2bDiv{
+.wholeSaleDiv, .HomeDiv, .abooutDiv, .wholeSaleDiv, .blogDiv, .b2bDiv, .mobileDev{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -382,7 +383,7 @@ body{
 }
 #topBtn{
     position: fixed;
-    z-index: 99;
+    z-index: 9999;
     bottom: 50px;
     right: 50px;
 }
@@ -987,7 +988,7 @@ section.aboutUsContentBox {
 
 .aboutContentBox {
     width: 90%;
-    margin: 0px 60px;
+    margin: 0px auto;
     padding: 10px;
 }
 
@@ -1029,15 +1030,15 @@ section.aboutUsContentBox {
     width: 100%;
     margin: 50px 0px;
     display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .about_box {
-    width: 45%;
+    width: 40%;
     background-color: #F6F6F6;
     padding: 10px;
     border-radius: 5px;
+    margin: auto;
 }
 
 .about_box .img_wrapp {
@@ -2009,8 +2010,8 @@ section.wholesale-content{
 /* Wholesale box Start */
 
 .wholesale_box-wrapper {
-    width: 100%;
-    margin: 30px 0px;
+    width: 85%;
+    margin: 30px auto;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -2018,7 +2019,7 @@ section.wholesale-content{
 }
 
 .wholesale_box {
-    width: 48%;
+    width: 40%;
     background-color: #F6F6F6;
     padding: 10px;
     border-radius: 5px;
@@ -2382,5 +2383,79 @@ section.wholeSale_newsletter{
 }
 /* Newsletter Section End */
 
+/* Whole Sale Page Styling */
+
+
+/* Our Mission Page Styling Start */
 
 /* Whole Sale Page Styling */
+#wholesalePg {
+    background-color: #fff;
+}
+
+/* WholeSale Banner Styling */
+.wholesale-title {
+    background-image: url('assets/images/wholesale-banner-img.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+
+.green-overlay{
+    z-index: 1;
+    aspect-ratio: auto;
+    background-color: var(--cit-green);
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+}
+.wholesale-title .container{
+    z-index: 99;
+    position: relative;
+}
+.wholesale-title-box {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+.wholesale-heading {
+    padding: 10px 0px;
+}
+
+.wholesale-heading h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.wholesale-des{
+    padding: 10px 0px;
+}
+.wholesale-des span {
+    color: #ffffff;
+    font-size: 23px;
+}
+
+/* WholeSale Banner Styling */
+
+.cit_elec_heading.values{
+    text-align: center;
+}
+.cit_elec_para.values{
+    text-align: center;
+}
+
+/* Our Mission Page Styling End */
+
+
+.green_img img{
+    width: 200px;
+    height: 250px;
+}

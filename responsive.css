@@ -1,5 +1,9 @@
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 991px) {
+
+    .navigation_bar ul {
+        gap: 15px;
+    }
 
     .navigation_bar ul li a {
         font-size: 12px;
@@ -63,7 +67,6 @@
     /* Whole Sale Page Responsiveness Start */
     .wholesale-title-box {
         width: 100%;
-        text-align: center;
     }
 
     .main-wholesale-content {
@@ -387,10 +390,21 @@
     }
 
     /* Whole Sale Page Responsiveness End */
+
+
+    .greenBlogMainBox{
+        flex-direction: column !important;
+    }
+    .green_img{
+        order: -1;
+        display: block !important;
+    }
+    .green_img img{
+        width: 100% !important;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-
     .responsive-bar {
         height: 100vh;
         width: 50%;
@@ -741,12 +755,12 @@
         text-align: center;
     }
 
-    .about_box-wrapper {
-        flex-direction: column;
+    .about_box-wrapper{
+        gap: 10px;
+        flex-wrap: wrap;
     }
-
     .about_box {
-        width: 50%;
+        width: 48%;
         margin: auto;
     }
 
@@ -1029,6 +1043,23 @@
     }
 
     /* Whole Sale Page Responsiveness End */
+
+
+    .card_blog{
+        width: 70%;
+        margin: auto;
+    }
+    .greenBlogMainBox{
+        flex-direction: row !important;
+    }
+    .green_img{
+        order: -1;
+        display: block !important;
+    }
+    .green_img img{
+        width: 100% !important;
+    }
+
 }
 
 
@@ -1764,6 +1795,21 @@
     }
 
     /* Whole Sale Page Responsiveness End */
+
+    .card_blog{
+        width: 64%;
+        margin: auto;
+    }
+    .greenBlogMainBox{
+        flex-direction: row !important;
+    }
+    .green_img{
+        order: -1;
+        display: block !important;
+    }
+    .green_img img{
+        width: 100% !important;
+    }
 }
 
 
@@ -2363,12 +2409,20 @@
     }
 
     .wholesale-heading h1 {
-        font-size: 25px;
+        font-size: 45px;
     }
 
     .wholesale-title-box {
         width: 100%;
         text-align: center;
+    }
+
+    .wholesale-des {
+        padding: 0px 0px;
+    }
+
+    .wholesale-des span{
+        font-size: 16px;
     }
 
     .main-wholesale-content {
@@ -2380,7 +2434,7 @@
     }
 
     .main-heading h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .wholeSaleBox_wrap {
@@ -2464,7 +2518,7 @@
     }
 
     .enjoy-advantage-heading h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .steps_box_wrapp {
@@ -2541,4 +2595,19 @@
     }
 
     /* Whole Sale Page Responsiveness End */
+
+    .card_blog{
+        width: 80%;
+        margin: auto;
+    }
+    .greenBlogMainBox{
+        flex-direction: row !important;
+    }
+    .green_img{
+        order: -1;
+        display: block !important;
+    }
+    .green_img img{
+        width: 100% !important;
+    }
 }
