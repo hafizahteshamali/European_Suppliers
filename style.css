@@ -312,7 +312,7 @@ section.header .logo-wrapper {
     background-color: var(--med-gray);
     position: absolute;
     padding: 30px 0px 10px;
-    top: 70px;
+    top: 65px;
     display: none;
     z-index: 998;
 }
@@ -432,7 +432,6 @@ body{
 
 .banner-section {
     width: 100%;
-    background-color: yellow;
     position: relative;
     padding-bottom: 20px;
 }
@@ -2561,37 +2560,55 @@ section.faqs-content2-section{
 .acc-body p{
     color: #7B7B7B;
 }
-/* FAQ'S Page Styling End */
 
 
 
-/* Shipping & Delivery Page Styling Start */
-.shipping_delivery-title {
-    background-image: url('assets/images/faqs-banner-img.jpg');
+/* Return and Refund Page Styling Start */
+.return_refunds-title {
+    background-image: url('assets/images/return-and-return-banner-img.jpg');
     background-size: 100% auto;
+    background-position: 0 15%;
     width: 100%;
     padding: 50px 0px 50px 50px;
-    background-position: center;
+    position: relative;
+    z-index: 10;
 }
 
-.shipping_delivery-title-box {
+.return-banner-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+section.return_refunds-title .container{
+    z-index: 150;
+    position: relative;
+}
+
+.return_refunds-title-box {
+    width: 80%;
+    margin: auto;
     padding: 10px;
-    margin-left: 30px;
 }
 
-.shipping_delivery-heading {
+.return_refunds-heading {
     padding: 10px 0px 0px;
 }
 
-.shipping_delivery-heading h1 {
+.return_refunds-heading h1 {
     color: #ffffff;
     font-size: 40px;
     font-weight: 800;
 }
-.shipping_delivery-des{
+.return_refunds-des{
     width: 50%;
 }
-.shipping_delivery-des span {
+.return_refunds-des span {
     color: #ffffff;
     font-size: 17px;
 }
@@ -2605,4 +2622,158 @@ section.working-section.shipping{
     margin-bottom: 0;
 }
 
-/* Shipping & Delivery Page Styling End */
+section.return_refund_ContentBox {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.return_refund_ContentBox {
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.how_it_works_heading {
+    padding: 0px 10px;
+}
+
+.how_it_works_heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.how_it_works_para {
+    padding: 0px 10px;
+}
+
+.how_it_works_para p {
+    font-size: 15px;
+}
+
+
+section.purchasing_section{
+    width: 100%;
+    background-color: var(--light-gray);
+    padding: 50px 0px;
+}
+.main_purchasing-content{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.purchase_heading h2{
+    font-weight: 700;
+}
+
+.purchasing_guideline_wrapper{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+}
+.create_acc_heading h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+.create_acc_para{
+    width: 90%;
+}
+.create_acc_para p{
+    color: #000;
+}
+.btn-wrapper button{
+    width: 28%;
+    background-color: #dfdfdf;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: 400ms ease-in-out;
+}
+.btn-wrapper button:hover{
+    color: #fff;
+    background-color: var(--cit-green);
+}
+
+.Search_inventory_heading{
+    margin-top: 50px;
+}
+
+.Search_inventory_heading h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+.Search_inventory_para{
+    width: 90%;
+}
+.Search_inventory_para p{
+    color: #000;
+}
+.Make_an_offer_heading{
+    margin-top: 50px;
+}
+.Make_an_offer_heading h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+.Make_an_offer_para{
+    width: 90%;
+}
+.Make_an_offer_para p{
+    color: #000;
+}
+
+.Finalize_submit_order_heading{
+    margin-top: 50px;
+}
+.Finalize_submit_order_heading h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+.Finalize_submit_order_para{
+    width: 90%;
+}
+.Finalize_submit_order_para p{
+    color: #000;
+}
+
+.Payment_heading{
+    margin-top: 50px;
+}
+.Payment_heading h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+.Payment_para{
+    width: 90%;
+}
+.Payment_para p{
+    color: #000;
+}
+
+.Track_your_package_heading{
+    margin-top: 50px;
+}
+
+.Track_your_package_heading h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+.Track_your_package_para{
+    width: 90%;
+}
+.Track_your_package_para p{
+    color: #000;
+}
+/* Return and Refund Page Styling End */
+
+
+
+
+

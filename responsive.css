@@ -403,6 +403,84 @@
     .green_img img{
         width: 100% !important;
     }
+
+    /* Refund & Returns Page Responsiveness Start */
+    .return_refunds-title-box{
+        width: 100%;
+        background-color: green;
+        text-align: center;
+    }
+    .return_refunds-des{
+        width: 100%;
+        text-align: center;
+    }
+    .return_refund_ContentBox{
+        width: 100%;
+    }
+    .how_it_works_heading{
+        text-align: center;
+    }
+    .how_it_works_para{
+        text-align: center;
+    }
+    .main_purchasing-content{
+        width: 100%;
+    }
+    .purchase_heading h2{
+        text-align: center;
+    }
+    .purchasing_guideline_wrapper{
+        padding: 10px;
+    }
+    .create_acc_heading{
+        text-align: center;
+    }
+    .create_acc_para{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-wrapper{
+        text-align: center;
+    }
+    .btn-wrapper button{
+        width: 40%;
+    }
+    .Search_inventory_heading{
+        text-align: center;
+    }
+    .Search_inventory_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Make_an_offer_heading{
+        text-align: center;
+    }
+    .Make_an_offer_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Finalize_submit_order_heading{
+        text-align: center;
+    }
+    .Finalize_submit_order_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Payment_heading{
+        text-align: center;
+    }
+    .Payment_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Track_your_package_heading{
+        text-align: center;
+    }
+    .Track_your_package_para{
+        width: 100%;
+        text-align: center;
+    }
+    /* Refund & Returns Page Responsiveness End */
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -1067,6 +1145,84 @@
         width: 90%;
     }
     /* FAQ's Page Responsiveness */
+
+
+    /* Refund & Returns Page Responsiveness Start */
+    .return_refunds-title-box{
+        width: 100%;
+        text-align: center;
+    }
+    .return_refunds-des{
+        width: 100%;
+        text-align: center;
+    }
+    .return_refund_ContentBox{
+        width: 100%;
+    }
+    .how_it_works_heading{
+        text-align: center;
+    }
+    .how_it_works_para{
+        text-align: center;
+    }
+    .main_purchasing-content{
+        width: 100%;
+    }
+    .purchase_heading h2{
+        text-align: center;
+    }
+    .purchasing_guideline_wrapper{
+        padding: 10px;
+    }
+    .create_acc_heading{
+        text-align: center;
+    }
+    .create_acc_para{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-wrapper{
+        text-align: center;
+    }
+    .btn-wrapper button{
+        width: 50%;
+    }
+    .Search_inventory_heading{
+        text-align: center;
+    }
+    .Search_inventory_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Make_an_offer_heading{
+        text-align: center;
+    }
+    .Make_an_offer_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Finalize_submit_order_heading{
+        text-align: center;
+    }
+    .Finalize_submit_order_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Payment_heading{
+        text-align: center;
+    }
+    .Payment_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Track_your_package_heading{
+        text-align: center;
+    }
+    .Track_your_package_para{
+        width: 100%;
+        text-align: center;
+    }
+    /* Refund & Returns Page Responsiveness End */
 
 }
 
@@ -1824,6 +1980,84 @@
         width: 90%;
     }
     /* FAQ's Page Responsiveness */
+
+
+     /* Refund & Returns Page Responsiveness Start */
+     .return_refunds-title-box{
+        width: 100%;
+        text-align: center;
+    }
+    .return_refunds-des{
+        width: 100%;
+        text-align: center;
+    }
+    .return_refund_ContentBox{
+        width: 100%;
+    }
+    .how_it_works_heading{
+        text-align: center;
+    }
+    .how_it_works_para{
+        text-align: center;
+    }
+    .main_purchasing-content{
+        width: 100%;
+    }
+    .purchase_heading h2{
+        text-align: center;
+    }
+    .purchasing_guideline_wrapper{
+        padding: 10px;
+    }
+    .create_acc_heading{
+        text-align: center;
+    }
+    .create_acc_para{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-wrapper{
+        text-align: center;
+    }
+    .btn-wrapper button{
+        width: 70%;
+    }
+    .Search_inventory_heading{
+        text-align: center;
+    }
+    .Search_inventory_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Make_an_offer_heading{
+        text-align: center;
+    }
+    .Make_an_offer_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Finalize_submit_order_heading{
+        text-align: center;
+    }
+    .Finalize_submit_order_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Payment_heading{
+        text-align: center;
+    }
+    .Payment_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Track_your_package_heading{
+        text-align: center;
+    }
+    .Track_your_package_para{
+        width: 100%;
+        text-align: center;
+    }
+    /* Refund & Returns Page Responsiveness End */
 }
 
 
@@ -2630,4 +2864,93 @@
         width: 90%;
     }
     /* FAQ's Page Responsiveness */
+
+
+    /* Refund & Returns Page Responsiveness Start */
+    .return_refunds-title {
+        width: 100%;
+        padding: 10px !important;
+    }
+    .return_refunds-title-box{
+        width: 100% !important;
+        text-align: center;
+        padding: 0 !important;
+    }
+    .return_refunds-heading h1 {
+        font-size: 30px;
+    }
+    .return_refunds-des span{
+        font-size: 16px;
+    }
+    .return_refunds-des{
+        width: 100%;
+        text-align: center;
+    }
+    .return_refund_ContentBox{
+        width: 100%;
+    }
+    .how_it_works_heading{
+        text-align: center;
+    }
+    .how_it_works_para{
+        text-align: center;
+    }
+    .main_purchasing-content{
+        width: 100%;
+    }
+    .purchase_heading h2{
+        text-align: center;
+    }
+    .purchasing_guideline_wrapper{
+        padding: 10px;
+    }
+    .create_acc_heading{
+        text-align: center;
+    }
+    .create_acc_para{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-wrapper{
+        text-align: center;
+    }
+    .btn-wrapper button{
+        width: 70%;
+    }
+    .Search_inventory_heading{
+        text-align: center;
+    }
+    .Search_inventory_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Make_an_offer_heading{
+        text-align: center;
+    }
+    .Make_an_offer_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Finalize_submit_order_heading{
+        text-align: center;
+    }
+    .Finalize_submit_order_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Payment_heading{
+        text-align: center;
+    }
+    .Payment_para{
+        width: 100%;
+        text-align: center;
+    }
+    .Track_your_package_heading{
+        text-align: center;
+    }
+    .Track_your_package_para{
+        width: 100%;
+        text-align: center;
+    }
+    /* Refund & Returns Page Responsiveness End */
 }
