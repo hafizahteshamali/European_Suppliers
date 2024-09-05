@@ -214,7 +214,7 @@ html{
 /* Menu Icon */
 #menu-icon {
     position: absolute;
-    top: 25px;
+    top: 15px;
     right: 10px;
     display: none;
 }
@@ -264,7 +264,7 @@ section.header .main-header-class {
 }
 
 section.header .logo-wrapper {
-    height: 70px;
+    height: 56px;
     padding: 5px;
     margin-left: 10px;
 }
@@ -366,7 +366,7 @@ section.header .logo-wrapper {
 }
 
 .b2b-btn {
-    padding: 5px 20px;
+    padding: 3px 15px;
     border-radius: 5px;
     background-color: var(--cit-green);
     color: #ffffff;
@@ -830,7 +830,6 @@ section.footer .footer-design {
     padding: 50px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 .link-wrapper {
@@ -2459,3 +2458,151 @@ section.wholeSale_newsletter{
     width: 200px;
     height: 250px;
 }
+
+
+/* FAQ'S Page Styling Start */
+
+.faqs-title {
+    background-image: url('assets/images/faqs-banner-img.jpg');
+    background-size: 100% auto;
+    width: 100%;
+    padding: 50px 0px 50px 50px;
+    background-position: center;
+}
+
+.faqs-title-box {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.faqs-heading {
+    padding: 10px 0px 0px;
+}
+
+.faqs-heading h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+}
+.faqs-des{
+    width: 50%;
+}
+.faqs-des span {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+section.faqs-content1-section{
+    width: 100%;
+    padding: 50px 0px;
+}
+section.faqs-content2-section{
+    background-color: var(--light-gray);
+}
+.faqs-content1{
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+.order_heading h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.accordion-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.accordion{
+    border: none !important;
+    outline: none !important;
+    margin: 20px 0px !important;
+}
+.accordion-item{
+    width: 100% !important;
+}
+.accordion-heade{
+    border: none !important;
+    outline: none !important;
+}
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed{
+    border: 1px solid transparent !important;
+    outline: none !important;
+}
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed:hover{
+    border: 1px solid var(--cit-green) !important;
+}
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed:focus{
+    border: 1px solid var(--cit-green) !important;
+    box-shadow: none !important;
+}
+.acc-btn{
+    background: none !important;
+    padding: 25px 10px !important;
+    outline: none !important;
+    transition: 450ms ease-in-out;
+}
+.acc-btn span{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #000;
+}
+.acc-btn:hover{
+    transition: 450ms ease-in-out;
+    border: 1px solid  var(--cit-green);
+    outline: none !important;
+}
+.acc-btn:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid var(--cit-green) !important;
+}
+.acc-body p{
+    color: #7B7B7B;
+}
+/* FAQ'S Page Styling End */
+
+
+
+/* Shipping & Delivery Page Styling Start */
+.shipping_delivery-title {
+    background-image: url('assets/images/faqs-banner-img.jpg');
+    background-size: 100% auto;
+    width: 100%;
+    padding: 50px 0px 50px 50px;
+    background-position: center;
+}
+
+.shipping_delivery-title-box {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.shipping_delivery-heading {
+    padding: 10px 0px 0px;
+}
+
+.shipping_delivery-heading h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+}
+.shipping_delivery-des{
+    width: 50%;
+}
+.shipping_delivery-des span {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.working-heading p{
+    width: 80%;
+    margin: 20px auto;
+}
+
+section.working-section.shipping{
+    margin-bottom: 0;
+}
+
+/* Shipping & Delivery Page Styling End */

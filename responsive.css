@@ -224,6 +224,7 @@
         display: flex;
         justify-content: center;
         gap: 20px;
+        flex-wrap: wrap;
     }
 
     .link-wrapper h3 {
@@ -696,6 +697,7 @@
         display: flex;
         justify-content: center;
         gap: 20px;
+        flex-wrap: wrap;
     }
 
     .link-wrapper {
@@ -1060,6 +1062,12 @@
         width: 100% !important;
     }
 
+    /* FAQ's Page Responsiveness */
+    .faqs-content{
+        width: 90%;
+    }
+    /* FAQ's Page Responsiveness */
+
 }
 
 
@@ -1363,6 +1371,7 @@
         display: flex;
         justify-content: center;
         gap: 20px;
+        flex-wrap: wrap;
     }
 
     .link-wrapper {
@@ -1810,6 +1819,11 @@
     .green_img img{
         width: 100% !important;
     }
+
+    .faqs-content{
+        width: 90%;
+    }
+    /* FAQ's Page Responsiveness */
 }
 
 
@@ -2109,6 +2123,7 @@
         display: flex;
         justify-content: center;
         gap: 20px;
+        flex-wrap: wrap;
     }
 
     .link-wrapper {
@@ -2610,4 +2625,9 @@
     .green_img img{
         width: 100% !important;
     }
+
+    .faqs-content{
+        width: 90%;
+    }
+    /* FAQ's Page Responsiveness */
 }
