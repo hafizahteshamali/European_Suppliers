@@ -86,6 +86,10 @@ html{
     transform: rotate(-180deg);
     transition: 350ms ease-in-out;
 }
+.stockRotate{
+    transform: rotate(-180deg);
+    transition: 350ms ease-in-out;
+}
 .responsive-navbar ul .wholesaleLi{
     display: flex;
     flex-direction: row;
@@ -208,7 +212,34 @@ html{
 .responsive-social-links ul li a:hover {
     color: #ffffff;
 }
-
+.stockli ul{
+    display: none;
+}
+.stockli ul.stockDropDownShow{
+    display: block;
+}
+.stockli ul li:last-child .mobileDev{
+    padding: 10px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+.stockli ul li:last-child .mobileDev input{
+    width: 63%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.stockli ul li:last-child .mobileDev button{
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--cit-green);
+    color: #fff;
+}
 /* Responsive Section End */
 
 /* Menu Icon */
@@ -279,7 +310,7 @@ section.header .logo-wrapper {
     width: 60%;
     height: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     padding: 0 10px;
 }
 
@@ -364,8 +395,46 @@ section.header .logo-wrapper {
 .navigation_bar ul li ul li:hover>a {
     color: #ffffff;
 }
-
-.b2b-btn {
+.stockListDD li:first-child{
+    border-bottom: 1px solid #fff;
+}
+.stockInputLi{
+    position: relative;
+}
+.stockListul{
+    width: 410px !important;
+    position: absolute;
+    right: 20%;
+}
+.stockListul li:first-child{
+    border-bottom: 1px solid #fff;
+}
+.stockListul .stockInput{
+    padding: 10px;
+    display: flex !important;
+    gap: 10px !important;
+}
+.stockInput input{
+    height: 40px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.stockInput button{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #F6F6F6;
+    outline: none;
+    background: none;
+    color: #fff;
+    transition: 350ms ease-in-out;
+}
+.stockInput button:hover{
+    background: var(--cit-green);
+}
+/* .b2b-btn {
     padding: 3px 15px;
     border-radius: 5px;
     background-color: var(--cit-green);
@@ -375,7 +444,7 @@ section.header .logo-wrapper {
     align-items: center;
     gap: 5px;
     margin: 10px auto;
-}
+} */
 
 /* Header Section End */
 body{

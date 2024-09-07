@@ -82,6 +82,20 @@ const b2bDropDown = (e)=>{
 b2bList.addEventListener('click', b2bDropDown);
 
 
+let stockli = document.querySelector('.stockli ul');
+let stockList = document.getElementById('stockList');
+const stockDropDown = (e)=>{
+    stockli.classList.toggle('stockDropDownShow');
+    if(stockli.classList.contains('stockDropDownShow')){
+        stockList.classList.add('stockRotate');
+    }
+    else{
+        stockList.classList.remove('stockRotate');
+    }
+}
+stockList.addEventListener('click', stockDropDown);
+
+
 let navlist = document.querySelectorAll('.navlist');
 let navicon = document.querySelectorAll('.navicon');
 
