@@ -2320,7 +2320,7 @@ section.consign .container{
 section.wholeSale_newsletter{
     width: 100%;
     background-color: #121929;
-    padding: 50px 0px;
+    padding: 50px 10px;
     border: 1px solid #ffff;
 }
 .main-wholesale_newsletter{
@@ -2565,10 +2565,11 @@ section.faqs-content2-section{
 /* Shipping & Delivery Page Start */
 .shipping_delivery-title{
     background-image: url('assets/images/faqs-banner-img.jpg');
-    background-size: 100% auto;
+    background-size: cover;
     width: 100%;
     padding: 50px 0px 50px 50px;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .shipping_delivery-title-box {
