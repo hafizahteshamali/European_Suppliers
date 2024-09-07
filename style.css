@@ -2358,7 +2358,7 @@ section.wholeSale_newsletter{
     gap: 20px;
 }
 .notify_wrapper input{
-    width: 40%;
+    width: 30%;
     height: 40px;
     border-radius: 5px;
     padding: 10px;
@@ -2810,6 +2810,38 @@ section.purchasing_section{
 
 /* Terms & Condition Page Styling Start*/
 
+/* Terms & Conditions Page Start */
+.shipping_delivery-title{
+    background-image: url('assets/images/faqs-banner-img.jpg');
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0px 50px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.term_delivery_title-box {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.shipping_delivery-heading {
+    padding: 10px 0px 0px;
+}
+
+.shipping_delivery-heading h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+}
+.shipping_delivery-des{
+    width: 50%;
+}
+.shipping_delivery-des span {
+    color: #ffffff;
+    font-size: 17px;
+}
+
 .terms_condition-section{
     padding: 50px 0;
 }
@@ -2893,6 +2925,11 @@ section.purchasing_section{
 }
 
 /* Terms & Condition Page Styling End*/
+
+
+/* Payment & Options Page Styling Start */
+
+/* Payment & Options Page Styling End */
 
 
 

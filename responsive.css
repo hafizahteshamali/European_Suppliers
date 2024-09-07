@@ -1815,7 +1815,7 @@
 
     .wholeSaleimg-wrap {
         order: -1;
-        width: 70%;
+        width: 85%;
         height: 500px;
     }
 
@@ -1846,7 +1846,7 @@
     }
 
     .wholesale_box {
-        width: 70%;
+        width: 100%;
     }
 
     .wholeSaleText-wrap {
@@ -1899,8 +1899,7 @@
     }
 
     .steps_box {
-        width: 70%;
-
+        width: 85%;
     }
 
     .main-consign-box {
@@ -1957,6 +1956,19 @@
 
     .keep_update_para {
         width: 100%;
+    }
+
+    .wholesale-heading{
+        padding: 0;
+    }
+
+    .wholesale-heading h1 {
+        font-size: 40px;
+    }
+
+    .wholesale-des span {
+        color: #ffffff;
+        font-size: 15px;
     }
 
     /* Whole Sale Page Responsiveness End */
@@ -2061,6 +2073,10 @@
 
     /* Terms and Condition */
 
+    .shipping_delivery-title {
+        padding: 50px 0px;
+    }
+
     .shipping_delivery-title-box {
         padding: 0;
         margin-left: 0;
@@ -2101,6 +2117,19 @@
     .accordian-wrapper.terms_condition .acc-body{
         text-align: center;
     }
+
+    .working-title-box {
+        padding: 0;
+        margin-left: 0px;
+    }
+    .working-heading h2 {
+        font-size: 25px;
+    }
+    .working-heading p {
+        width: 95%;
+        margin: 10px auto;
+    }
+
 }
 
 
@@ -2736,7 +2765,7 @@
 
     .wholeSaleimg-wrap {
         order: -1;
-        width: 70%;
+        width: 85%;
         height: 500px;
     }
 
@@ -2820,8 +2849,7 @@
     }
 
     .steps_box {
-        width: 70%;
-
+        width: 90%;
     }
 
     .main-consign-box {
@@ -2884,6 +2912,10 @@
 
     .keep_update_para {
         width: 100%;
+    }
+
+    .global-box-btn button {
+        width: 80%;
     }
 
     /* Whole Sale Page Responsiveness End */
@@ -3051,5 +3083,17 @@
     }
     .accordian-wrapper.terms_condition .acc-body{
         text-align: center;
+    }
+
+    .working-title-box {
+        padding: 0;
+        margin-left: 0px;
+    }
+    .working-heading h2 {
+        font-size: 25px;
+    }
+    .working-heading p {
+        width: 95%;
+        margin: 10px auto;
     }
 }
