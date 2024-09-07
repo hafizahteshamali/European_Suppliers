@@ -1029,6 +1029,7 @@ section.aboutUsContentBox {
     margin: 50px 0px;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .about_box {
@@ -2544,7 +2545,7 @@ section.faqs-content2-section{
 }
 .acc-btn span{
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 17px;
     color: #000;
 }
 .acc-btn:hover{
@@ -2561,7 +2562,37 @@ section.faqs-content2-section{
     color: #7B7B7B;
 }
 
+/* Shipping & Delivery Page Start */
+.shipping_delivery-title{
+    background-image: url('assets/images/faqs-banner-img.jpg');
+    background-size: 100% auto;
+    width: 100%;
+    padding: 50px 0px 50px 50px;
+    background-position: center;
+}
 
+.shipping_delivery-title-box {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.shipping_delivery-heading {
+    padding: 10px 0px 0px;
+}
+
+.shipping_delivery-heading h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+}
+.shipping_delivery-des{
+    width: 50%;
+}
+.shipping_delivery-des span {
+    color: #ffffff;
+    font-size: 17px;
+}
+/* Shipping & Delivery Page End */
 
 /* Return and Refund Page Styling Start */
 .return_refunds-title {
@@ -2617,6 +2648,8 @@ section.return_refunds-title .container{
     width: 80%;
     margin: 20px auto;
 }
+
+
 
 section.working-section.shipping{
     margin-bottom: 0;
@@ -2772,6 +2805,93 @@ section.purchasing_section{
     color: #000;
 }
 /* Return and Refund Page Styling End */
+
+
+/* Terms & Condition Page Styling Start*/
+
+.terms_condition-section{
+    padding: 50px 0;
+}
+.terms_condition-heading{
+    background: #e7f2f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+.terms_condition-heading h4{
+    color: var(--cit-green);
+}
+.terms_condition-network_heading{
+    padding: 10px 20px;
+    margin: 8px 0;
+}
+.terms_condition-network_heading h4{
+    position: relative;
+    color: #000;
+}
+.terms_condition-network_heading h4::before{
+    position: absolute;
+    content: '';
+    height: 1px ;
+    width: 100%;
+    background-color: var(--cit-green);
+    bottom: -10px;
+}
+.condition_box{
+    padding: 0px 20px;
+    margin-bottom: 50px;
+}
+.condition_box h5{
+    color: #000;
+}
+.condition_box h5{
+    margin-top: 20px;
+}
+.condition_box .second_h5{
+    margin-top: 30px;
+}
+.condition_box p{
+    margin: 8px 0;
+}
+.condition_box p a{
+    color: #0069b4;
+}
+
+.accordian-wrapper.terms_condition{
+    padding: 20px;
+}
+.accordian-wrapper.terms_condition .accordion-item{
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.accordian-wrapper.terms_condition .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed{
+    border:none !important;
+    outline: none !important;
+}
+.accordian-wrapper.terms_condition .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed:hover{
+    border: none !important;
+}
+.accordian-wrapper.terms_condition .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+.accordian-wrapper.terms_condition .acc-btn{
+    border: none !important;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.accordion-item p a{
+    color: #0069b4;   
+}
+
+.accordion-item h5{
+    font-size: 16px;
+}
+.accordion-item h6{
+    font-size: 13px;
+}
+
+/* Terms & Condition Page Styling End*/
 
 
 

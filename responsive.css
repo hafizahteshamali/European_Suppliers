@@ -2058,6 +2058,23 @@
         text-align: center;
     }
     /* Refund & Returns Page Responsiveness End */
+
+    /* Terms and Condition */
+    .shipping_delivery-title {
+        padding: 50px 0px;
+    }
+    .shipping_delivery-title-box{
+        margin: 0 !important;
+        padding: 10px;
+    }
+    .shipping_delivery-heading{
+        text-align: center;
+    }
+    .shipping_delivery-des{
+        width: 100%;
+        text-align: center;
+    }
+    /* Terms and Condition */
 }
 
 
@@ -2953,4 +2970,26 @@
         text-align: center;
     }
     /* Refund & Returns Page Responsiveness End */
+    /* Terms and Condition */
+    .shipping_delivery-title {
+        padding: 50px 0px;
+    }
+    .shipping_delivery-title-box{
+        margin: 0 !important;
+        padding: 10px;
+    }
+    .shipping_delivery-heading{
+        text-align: center;
+    }
+    .shipping_delivery-heading h1{
+        font-size: 25px;
+    }
+    .shipping_delivery-des{
+        width: 100%;
+        text-align: center;
+    }
+    .shipping_delivery-des span{
+        font-size: 13px;
+    }
+    /* Terms and Condition */
 }
