@@ -3002,5 +3002,31 @@ section.purchasing_section{
 
 
 
+/* Inner Blog Page Styling */
+
+.wholesale-title.innerBlog .wholesale-heading{
+    text-align: center;
+}
+
+.wholesale-title.innerBlog .wholesale-des{
+    text-align: center;
+}
+  
+  .blog-article {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 5px 5px 20px rgba(black, 0.2);
+      margin: 50px 0;
+    }
+  }
+/* Inner Blog Page Styling */
+
+
+
 
 
